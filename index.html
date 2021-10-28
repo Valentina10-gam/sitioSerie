@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Laura Valentina Gamboa Parra">
+    <meta name="keywords" content="shadow and bone , netflix, leigh burgo, seis de cuervos, grishaverse">
+    <meta name="description" content="Sitio web dedicado a la serie de netflix Shadow and bond, mostrando contenido de interes como trailer, sinopsis y galeria para cualquier">
+
+    <title>Shadow and Bone</title>
+
+    <!-- ESTILOS -->
+    
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto+Slab:wght@200;400;500&display=swap" rel="stylesheet">
+
+
+    <!-- FAVICON -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="shortcut icon" href="img/ciervo.png" type="image/x-icon">
+
+    <!-- SCRIPT FONT -->
+    <script src="https://kit.fontawesome.com/3d8a730b5e.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+<!-- BARRA DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li class="logo"><a href="#inicio">
+                    <img src="img/logo2.png" alt="">
+                </a>
+            </li>
+            <li class="btn"><a href="#mmedia" class="botones" id="btn_mmedia" onclick="estatico(this.id)"><i class="flaticon-ciervo"></i> multimedia</a>
+            </li>
+            <li class="btn"><a href="#sinopsis" class="botones" id="btn_sinopsis" onclick="estatico(this.id)"><i class="flaticon-ciervo"></i> sinopsis</a>
+            </li>
+            <li class="btn" ><a href="#director" class="botones" id="btn_director" onclick="estatico(this.id)"><i class="flaticon-ciervo"></i> director</a>
+            </li>
+            <li class="btn"><a href="#galeria" class="botones" id="btn_galeria" onclick="estatico(this.id)"><i class="flaticon-ciervo"></i> galeria</a>
+            </li>
+            <li class="btn"><a href="#contacto" class="botones" id="btn_contacto" onclick="estatico(this.id)"><i class="flaticon-ciervo"></i> contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+        function estatico(id){
+            var botones = document.getElementsByClassName("botones");
+
+            for (i=0; i<botones.length;i++) {
+                if(botones[i].classList.contains("seleccionado")==true){
+                botones[i].classList.remove("seleccionado");
+                }
+            }
+
+            botones[id].classList.add("seleccionado"); 
+
+        }
+    </script>
+    <header id="inicio">
+    
+        <a href="#mmedia"><img src="img/down-arrow.png" class="boton"></a>
+
+<!-- FIN BARRA DE NAVEGACIÓN -->
+
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+        
+        <!-- INICIO SLIDER  -->
+        <div class="mascara">
+            
+            <div class="slider">
+                
+                <div class="cuadros">
+                    <img ccl src="img/slider4.jpg" alt="">
+                    
+                    
+                </div>
+                <div class="cuadros">
+    
+                    <img src="img/slider2.jpg" alt="">
+                    
+                </div>
+                <div class="cuadros">
+
+    
+                    <img src="img/slider.jpg" alt="">
+                    
+                </div>
+                <div class="cuadros">
+                    <img src="img/slider77.jpg" alt="">
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- FIN SLIDER -->
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+    </header>
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+<!-- INICIO MMEDIA -->
+    <section id="mmedia">
+    <video src="img/video.mp4" controls poster="img/poster.jpg"></video>
+
+    <article class="caja_uno">
+        <h2> GRISHAVERSE</h2>
+        <img src="img/libros.png" alt="">
+            <p>Shadow and Bone está basada en las <em>novelas grishaverse</em> más vendidas a nivel mundial del escritor israelí-estadounidense, <strong>Leigh Bardugo</strong>. La novela homónima es el primer libro de la trilogía grisha seguido de Asedio y tormenta y ruina y levantamiento.
+            <br>
+            Pero el programa de televisión Shadow and Bone adapta no sólo la trilogía grisha, sino también los <strong> Seis de cuervos</strong> duology, Seis cuervos y Reino torcido, reuniendo a personajes de ambas series e incorporándolos a la historia de Sombra y Hueso.</p>
+    </article>
+    <article class="caja_dos">
+        <h2> DETRAS DE ESCENAS </h2>
+            <p>Netflix está lanzando una nueva serie de fantasía, y es hora de que otra temporada de <strong>Behind the Scenes</strong>  entienda cómo sucede todo. Esta vez, nos sumergiremos de cabeza en el mundo épico de Shadow and Bone. A partir del 28 de abril, el presentador <em>Brandon Jenkins (Mogul; Complex) </em> se sentará con la gente detrás de escena del programa. Escucharemos a showrunners y escritores, actores y diseñadores, efectos especiales y más. Ponte las cortinas porque estamos convocando mucho sol esta temporada. </p>
+            <audio src="img/audio.mp3" controls></audio>
+    </article>
+    <article class="caja_tres">
+        <iframe src="https://www.youtube.com/embed/XJuGqFkOYHo" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+    </article>
+
+
+
+    </section>
+<!------------------ FIN MMEDIA ----------->
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+    <!-- INICIO SINOPSIS -->
+    <section id="sinopsis">
+    <article>
+        <h2>SINOPSIS</h2>
+        <p>Ravka, un reino de fantasía basado en el Imperio RusoZarista, está ambientado en un mundo devastado por la guerra plagado por el Shadow Fold, una franja de oscuridad permanente que separa el este del Ravka Occidental, que está habitada por criaturas carnívoras aladas conocidas como Volcra. La cartóloga huérfana <strong>Alina Starkov</strong> descubre que es una Grisha (tiene poder para manipular la materia) que posee el poder de crear luz, que podría ser la clave para liberar a su país del Fold. Alina se une a un ejército de élite de Grisha sirviendo bajo <strong>el general Kirigan, el Invocador de las Sombras</strong>.
+            <br> <br>
+        Pero mientras lucha por perfeccionar su poder, descubre que los aliados y enemigos pueden ser los mismos y que nada en este mundo lujoso es lo que parece. Hay fuerzas peligrosas en juego, incluyendo un equipo de criminales carismáticos, y se necesitará más que magia para sobrevivir.
+        </p>
+    </article>
+    </section>
+
+    <!-- FIN SINOPSIS -->
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+    <!-- INICIO DIRECTOR -->
+    <section id="director">
+    <article>
+        <h2>Eric Andrew Heisserer </h2>
+
+        <div class="columnas">
+        <div class="marco uno">
+            <img src="img/director1.jpg" alt="">
+        </div>
+        <p>Eric Andrew Heisserer (nacido en <time>1970</time>) es un guionista y escritor de cómics estadounidense. Su guión para la película Arribo le valió una nominación a Mejor Guión Adaptado en los <em>89 Premios de la Academia</em>  en <time>2016</time>.
+        También escribió las películas de terror <em>A Nightmare on Elm Street (remake de <time> 2010</time>), Destino final 5, The Thing (película precuela de <time>2011</time>), Lights Out y Bird Box, y escribió y dirigió Horas con Paul Walker.</em>  
+        <br><br>
+        La carrera de guionista profesional de Heisserer se inició con la venta de <em> The Dionaea House</em>  a Warner Bros. en <time>2005</time>, basada en una historia epistolar en línea del mismo nombre  que escribió desde el otoño de <time>2004</time> hasta el invierno de <time>2006</time>. The Dionaea House fue una novela multimedia contada a través de múltiples blogs dirigidos por personajes de ficción, y se refería a una casa siniestra que existía en varios lugares de los Estados Unidos. Se considera una de las primeras historias de creepypasta populares. Luego desarrolló un piloto de televisión original para Paramount Pictures y CBS, y escribió proyectos de largometraje para Jerry Bruckheimer Films y Warner Bros .
+        <br> <br>
+        En <time> 2007</time>, vendió un lanzamiento a Regency Enterprises y Fox llamado <em>Inhuman</em> , un thriller sobrenatural ambientado en Tokio que combina secuencias de acción en vivo y anime. 
+        En diciembre de <time>2008</time>, Heisserer fue contratado para volver a imaginar y reescribir el guión del reinicio de la franquicia de A Nightmare on Elm Street, producido por Platinum Dunes. Wesley Strick había escrito un primer borrador. El guión pasó al director Samuel Bayer, al actor Jackie Earle Haley, y comenzó a filmar en mayo de <time>2009</time> .
+        <br> <br>
+        Reescribió la precuela del remake de <time>1982</time>  del director John Carpenter, <em> The Thing</em>.     
+        </p>
+        
+        <p>  
+        
+        En <time>abril de 2010</time> , Heisserer firmó un contrato para escribir <em>Destino final 5</em> , la quinta película de la franquicia de películas de terror.
+        Heisserer hizo su debut como director con la película <em>Hours</em> , protagonizada por Paul Walker. Heisserer coescribió <em>The Conjuring 2 </em> junto con los hermanos Chad Hayes y Carey Hayes. Heisserer escribió junto con el artista Felipe Massafera y el colorista Wes Dzioba, la serie de cómics <em> Shaper </em>.
+        <br><br> 
+        Heisserer escribió la película de <time>2016</time> <em>Arrival </em> basada en el cuento de Ted Chiang "La historia de tu vida". Heisserer ha dicho que se sintió atraído por el desafío de adaptar la historia no lineal por su contenido emocional. Después del estreno de la película, fue nominado a <strong>Mejor Guión Adaptadoen los 89º Premios de la Academia.</strong>  
+        <br> </p>
+        <div class="marco dos">
+            <img src="img/img8.jpg" alt="">
+        </div>
+        <p>
+        En  <time>julio de 2017</time>, Heisserer anunció que estaba desarrollando una serie de ciencia ficción basada en la historia de otro Ted Chiang,<em>"Me gusta lo que ves: un documental"</em> , para AMC. La serie explorará conceptos como belleza, relaciones y publicidad. 
+        El <time>27 de septiembre de 2017</time> , se anunció que Heisserer escribiría el guión del remake de acción en vivo del anime romántico de ciencia ficción <em>Your Name</em> . En <time>septiembre de 2020</time> , fue reemplazado por Lee Isaac Chung y Emily V. Gordon.
+        <br>
+        </p>
+        
+        <p> Heisserer escribió el guión de <em>Bird Box (<time>2018</time> )</em> , basado en el libro de suspenso Bird Box, de Josh Malerman. Lanzada por Netflix, la película está protagonizada por Sandra Bullock y fue dirigida por Susanne Bier. 
+        Heisserer se desempeña como creador, escritor principal, corredor de espectáculos y productor ejecutivo de la serie de Netflix de 2021 <strong>Shadow and Bone</strong> , una adaptación de la serie de libros de fantasía The Grisha Trilogy y Six of Crows Duology. </p>
+        
+        </div>
+    </article>
+
+
+
+
+    </section>
+    <!-- FIN DIRECTOR -->
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+    
+    <!-- INICIO GALERIA -->
+    <section id="galeria">
+        <h2>personajes</h2>
+
+        <figure onclick="ventana_modal(1)">
+            <img src="img/img1.jpeg"  id="mini-1">
+            <figcaption>
+                <h3  id="nombre-1" class="ventana">Alina Starkov</h3>
+                <p id="texto-1">Alina es una joven cartógrafa que vive en Ravka, donde descubre que tiene el poder de manipular la luz del sol, un poder especial que podría ayudar a destruir la muralla de sombra. Ella es originaria de Shu-Han y es entrenada en la magia por el general Kirigan.</p>
+            </figcaption>
+        </figure>
+
+        <figure onclick="ventana_modal(2)">
+            <img src="img/img2.jpg"  id="mini-2">
+            <figcaption>
+                <h3  id="nombre-2">Alexander Kirigan</h3>
+                <p id="texto-2"> Kirigan es el Grisha más poderoso y es capaz de invocar la sombra, además está al frente del segundo ejército y desde el primer momento siente curiosidad por los poderes y habilidades de Alina. También se le conoce como The Darkling.</p>
+            </figcaption>
+        </figure>
+
+        
+
+        <figure onclick="ventana_modal(3)">
+            <img src="img/img4.jpeg"  id="mini-3">
+            <figcaption>
+                <h3  id="nombre-3">Maylen Oretsev</h3>
+                <p id="texto-3">Maylen creció junto a Alina y eventualmete se une al Primer Ejército de Ravka para defender al reino de la Sombra, aunque no es un Grisha.</p>
+            </figcaption>
+        </figure>
+        
+        <figure onclick="ventana_modal(4)">
+            <img src="img/img3.jpg"  id="mini-4">
+            <figcaption>
+                <h3  id="nombre-4">Kaz Brekker</h3>
+                <p id="texto-4">Brekker es un ladrón excepcional, es uno de los cuervos de Ketterdam y solo confía en sus aliados más cercanos. Brekker es el líder de los Dregs, una de las pandillas de la ciudad</p>
+            </figcaption>
+        </figure>
+        <figure onclick="ventana_modal(5)">
+            <img src="img/img5.jpg"  id="mini-5">
+            <figcaption>
+                <h3  id="nombre-5">Inej Ghafa</h3>
+                <p id="texto-5">Ella es una espía y asesina, fue vendida como esclava a Brekker, pero él la libera y la hace parte de su pandilla, aunque ella tiene un compás moral y principios que la llevan a cuestionar lo que hacen.</p>
+            </figcaption>
+        </figure>
+
+        <figure onclick="ventana_modal(6)">
+            <img src="img/img6.jpg"  id="mini-6">
+            <figcaption>
+                <h3  id="nombre-6">Jesper Fahey</h3>
+                <p id="texto-6">Jesper es un pistolero fanático de las apuestas y miembro de los Dregs y pone su lealtad completamente en los cuervos.</p>
+            </figcaption>
+        </figure>
+
+
+<!--█████████████████████████████████████████████-->
+
+    <!-- VENTANA EMERGENTE -->
+    
+    <div id="ventana_modal" class="close">
+
+        <div class="contenido">
+            <h3 id="nombre_modal"></h3> 
+            <div class="marco">
+                <img src="" id="maxi">
+            </div>
+            <p id="texto_modal"></p>
+            <b class="bt_x" onclick=" close_ventana()"> X</b>
+        </div>
+
+    </div>
+
+
+
+<!--██████████████████████████████████████-->
+<!-- JAVASCRIPT -->
+<script>
+    function ventana_modal(N){
+    
+    ////---------- APERTURA
+        var ventana_modal = document.getElementById("ventana_modal");
+        
+        if(ventana_modal.className ==='close'){
+            ventana_modal.className = 'open';
+        }
+
+        ///--------CARGA DE RECURSOS
+
+
+        /// IDENTIFICAR FIGURA
+
+
+            var nombreN = "nombre-"+ N;
+            var miniN = "mini-"+ N;
+            var textoN = "texto-"+ N;
+
+        //---EXTRACION
+
+
+        var texto_nombre = document.getElementById(nombreN).textContent;
+        var url = document.getElementById(miniN).getAttribute("src");
+        var texto_descriptivo = document.getElementById(textoN).textContent
+
+        //----INSERCIÓN
+
+
+        document.getElementById("nombre_modal").innerHTML = texto_nombre;
+        document.getElementById("maxi").setAttribute("src", url)
+        document.getElementById("texto_modal").innerHTML = texto_descriptivo;
+        
+    
+}
+
+    function close_ventana(){
+        var ventana_modal = document.getElementById("ventana_modal");
+
+        if(ventana_modal.className ==='open'){
+            ventana_modal.className = 'close'
+        }
+    }
+
+
+
+</script>
+    </section>
+    <!-- FIN GALERIA -->
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+<!-- INICIO CONTACTO -->
+    
+    <section id="contacto">
+        <form action="">
+        
+
+        <fieldset>
+            <legend>CONTÁCTANOS</legend>
+
+            <label for="">Nombre</label><br>
+            <input type="text" required>
+            <br>
+            <label for="">Email</label>
+            <br>
+            <input type="email" required>
+            <br>
+            <label for="">Ciudad</label>
+            <br>
+            <select name="" id="">
+                <option value="">---</option>
+                <option value="">Bogotá</option>
+                <option value="">Cali</option>
+                <option value="">Medellín</option>
+                <option value="">Cartagena</option>
+                <option value="">Santa Marta</option>
+            </select>
+            <br>
+            <label for="" > Mensaje</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10" required></textarea><br>
+
+            <div class="botones">
+            <input type="reset">
+            <input type="submit">
+            </div>
+            
+
+
+        </fieldset>
+
+        </form>
+    </section>
+
+<!-- FIN CONTACTO -->
+
+<!--███████████████████████████████████████████████████████████████████████████████████████████████-->
+
+<!-- INICIO FOOTER -->
+<footer>
+    <p>Hecho por <strong>Laura Gamboa </strong> <i class="fas fa-heart"></i> <br> <time>2021</time></p>
+    <aside>
+        <a href="https://www.instagram.com/shadowandbone/" target="_blank"><i class="flaticon-instagram"></i></a>
+        <a href="https://www.facebook.com/ShadowAndBoneTV/" target="_blank"><i class="flaticon-facebook"></i></a>
+        <a href="https://twitter.com/grishanetflixtv?lang=en" target="_blank"><i class="flaticon-gorjeo"></i></a>
+        
+    </aside>
+</footer>
+<!-- INICIO FOOTER -->
+
+
+</body>
+</html>
